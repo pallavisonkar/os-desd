@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     else
     {
         //parent process
-         write(pfd[1], "cdac\n",5);
+        write(pfd[1], "cdac\n",5);
         close(pfd[1]);
     }
     return 0;
