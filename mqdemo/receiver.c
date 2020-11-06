@@ -19,7 +19,7 @@ int main(int *argc, char const *argv[])
     mq_receive(mqfd, buff, 128, &prio);
     printf("Recvd: %s\n", buff);
     mq_close(mqfd);
-    
-    return 0;
+ 
+   return 0;
 }
 
